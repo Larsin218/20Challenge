@@ -16,9 +16,9 @@ function Footer() {
   ];
 
   return (
-    <footer className="flex-row px-1">
+    <footer className="footer">
       {icons.map((icon) => (
-        <a
+        <a className="iconList"
           href={icon.link}
           key={icon.name}
           target="_blank"
