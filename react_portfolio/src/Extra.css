@@ -1,5 +1,5 @@
 :root {
-    background: white;
+    background: rgb(3, 3, 29);
 }
 
 .header {
@@ -10,7 +10,7 @@
 }
 
 .header h1 {
-    color: black;
+    color: white;
     text-shadow: 0 0 20px #00c3ff, 0 0 40px #00b7ff;
     transition: 0.3s;
 }
@@ -32,18 +32,21 @@
 
 .navText {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navText:hover {
-    text-shadow: 0 0 20px #00c3ff, 0 0 40px #00b7ff;
+    text-shadow: 0 0 15px #00c3ff, 0 0 30px #00b7ff;
     transition: 0.3s;
 }
 
 .contactForm {
-    width: 25rem;
-    margin: 10px 5px;
-    padding: 3px;
+    background: white;
+    box-shadow: 0 0 10px #00c3ff, 0 0 20px #00b7ff;
+    border-radius: 3rem;
+    width: 55rem;
+    margin: 10px auto;
+    padding: 10px 10px 30px 10px;
     display: flex;
     flex-direction: column;
 }
@@ -54,5 +57,63 @@
 
 .iconList {
     margin: 20px;
+    font-size: 40px;
+    color: whitesmoke;
+}
 
+.iconList:hover {
+    text-shadow: 0 0 15px #00c3ff, 0 0 30px #00b7ff;
+    transition: 0.3s;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pic {
+    margin: 20px;
+    border-radius: 3rem;
+    border-color: white;
+    border-style: solid;
+}
+
+.pic:hover {
+    box-shadow: 0 0 10px #00c3ff, 0 0 20px #00b7ff;
+    transition: 0.3s;
+}
+
+.mainH2 {
+    text-align: center;
+    text-shadow: 0 0 10px #00c3ff, 0 0 20px #00b7ff;
+    color: white;
+}
+
+.mainContent {
+    text-align: center;
+    color: white;
+}
+
+.midCont {
+    background: white;
+    box-shadow: 0 0 10px #00c3ff, 0 0 20px #00b7ff;
+    color: black;
+    width: 600px;
+    height: 400px;
+    border-radius: 3rem;
+    margin: 5px auto;
+    padding: 5px;
+    justify-content: center;
+}
+
+.input {
+    border-radius: 2rem;
+    padding: 15px;
+}
+
+.about {
+    font-size: large;
+    padding: 10px;
+    line-height: 30px;
 }
