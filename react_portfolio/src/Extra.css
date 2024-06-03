@@ -1,9 +1,5 @@
 :root {
-    background: rgb(20, 146, 70);
-}
-
-body {
-
+    background: white;
 }
 
 .header {
@@ -14,8 +10,8 @@ body {
 }
 
 .header h1 {
-    color: white;
-    text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+    color: black;
+    text-shadow: 0 0 20px #00c3ff, 0 0 40px #00b7ff;
     transition: 0.3s;
 }
 
@@ -37,6 +33,11 @@ body {
 .navText {
     text-decoration: none;
     color: black;
+}
+
+.navText:hover {
+    text-shadow: 0 0 20px #00c3ff, 0 0 40px #00b7ff;
+    transition: 0.3s;
 }
 
 .contactForm {
