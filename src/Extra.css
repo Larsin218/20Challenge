@@ -90,6 +90,10 @@
     color: white;
 }
 
+.projectH2 {
+    text-decoration: none;
+}
+
 .mainContent {
     text-align: center;
     color: white;
@@ -117,3 +121,4 @@
     padding: 10px;
     line-height: 30px;
 }
+
