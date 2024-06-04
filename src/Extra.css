@@ -77,6 +77,8 @@
     border-radius: 3rem;
     border-color: white;
     border-style: solid;
+    width: 600px;
+    height: 400px;
 }
 
 .pic:hover {

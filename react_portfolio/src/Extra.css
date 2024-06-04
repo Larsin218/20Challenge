@@ -1,0 +1,53 @@
+:root {
+    background: rgb(20, 146, 70);
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.header h1 {
+    color: white;
+    text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+    transition: 0.3s;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.nav {
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navText {
+    text-decoration: none;
+    color: black;
+}
+
+.contactForm {
+    width: 25rem;
+    margin: 10px 5px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    height: 10rem;
+}
+
+.iconList {
+    margin: 20px;
+
+}
